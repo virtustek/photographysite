@@ -120,3 +120,54 @@
             order: 2;
   }
 }
+.quote-inline-wrap-article-content {
+  max-width: 100%;
+  position: relative;
+}
+.quote-inline-wrap {
+  float: left;
+  max-width: 21.875rem;
+  padding: 0 1rem 1rem 0;
+}
+.quote-inline-wrap .quote-inline-marks {
+  font-size: 6.25rem;
+  color: #8a8a8a;
+  line-height: 1rem;
+}
+.quote-inline-wrap .quote-inline-testimonial {
+  border-radius: 5px;
+}
+.quote-inline-wrap .quote-inline-testimonial p {
+  font-weight: 300;
+}
+.quote-inline-wrap .quote-inline-person {
+  margin-bottom: 1.5rem;
+}
+.quote-inline-wrap .quote-inline-person .quote-inline-photo img {
+  border-radius: 50%;
+  width: 4.375rem;
+  height: 4.375rem;
+  float: left;
+  margin-right: 1rem;
+}
+.quote-inline-wrap .quote-inline-person p {
+  position: relative;
+  top: 5px;
+}
+.quote-inline-wrap .quote-inline-person p:nth-child(2) {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.quote-inline-wrap .quote-inline-person p:nth-child(3) {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #8a8a8a;
+}
+@media screen and (max-width: 63.9375em) {
+  .quote-inline-wrap {
+    width: 100%;
+    float: none;
+    display: block;
+  }
+}
