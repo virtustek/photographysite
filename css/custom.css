@@ -31,17 +31,17 @@
   .article-row-section-inner {
     -webkit-flex: 0 0 83.33333%;
         -ms-flex: 0 0 83.33333%;
-            flex: 0 0 83.33333%;
+            flex: 0 0 97%;
     max-width: 83.33333%;
     padding-right: 0.625rem;
     padding-left: 0.625rem;
-    max-width: 83.33333%;
+    max-width: 100%;
   }
 }
 @media print, screen and (min-width: 40em) and (min-width: 40em) {
   .article-row-section-inner {
-    padding-right: 0.9375rem;
-    padding-left: 0.9375rem;
+    padding-right: 0rem;
+    padding-left: 0rem;
   }
 }
 .article-row-section-header {
@@ -120,54 +120,74 @@
             order: 2;
   }
 }
-.quote-inline-wrap-article-content {
-  max-width: 100%;
-  position: relative;
+.marketing-site-footer {
+  background: #2c3840;
+  color: #8aa0ae;
+  padding: 2rem 0 0;
 }
-.quote-inline-wrap {
-  float: left;
-  max-width: 21.875rem;
-  padding: 0 1rem 1rem 0;
+.marketing-site-footer .marketing-site-footer-menu-social a {
+  color: #fefefe;
 }
-.quote-inline-wrap .quote-inline-marks {
-  font-size: 6.25rem;
-  color: #8a8a8a;
-  line-height: 1rem;
+.marketing-site-footer .column-block {
+  margin-bottom: 30px;
 }
-.quote-inline-wrap .quote-inline-testimonial {
-  border-radius: 5px;
+.marketing-site-footer > .row {
+  margin-bottom: 1rem;
 }
-.quote-inline-wrap .quote-inline-testimonial p {
-  font-weight: 300;
+@media screen and (max-width: 39.9375em) {
+  .marketing-site-footer .columns {
+    margin-bottom: 2rem;
+  }
 }
-.quote-inline-wrap .quote-inline-person {
-  margin-bottom: 1.5rem;
+.marketing-site-footer-name {
+  color: #fefefe;
+  margin-bottom: 1rem;
+  font-size: 2rem;
 }
-.quote-inline-wrap .quote-inline-person .quote-inline-photo img {
-  border-radius: 50%;
-  width: 4.375rem;
-  height: 4.375rem;
-  float: left;
-  margin-right: 1rem;
+.marketing-site-footer-title {
+  color: #fefefe;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
 }
-.quote-inline-wrap .quote-inline-person p {
-  position: relative;
-  top: 5px;
+.marketing-site-footer-block {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem;
 }
-.quote-inline-wrap .quote-inline-person p:nth-child(2) {
-  font-size: 1rem;
-  font-weight: 500;
+.marketing-site-footer-block .fa {
+  font-size: 2rem;
+  color: #020304;
+}
+.marketing-site-footer-block p {
+  margin-left: 1rem;
+  line-height: 1.125rem;
+}
+.marketing-site-footer-bottom {
+  background: #020304;
+  padding: 1rem 0;
+}
+.marketing-site-footer-bottom p,
+.marketing-site-footer-bottom .menu {
   margin-bottom: 0;
 }
-.quote-inline-wrap .quote-inline-person p:nth-child(3) {
-  font-size: 0.875rem;
-  font-weight: 400;
-  color: #8a8a8a;
+.marketing-site-footer-bottom .marketing-site-footer-bottom-links {
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.marketing-site-footer-bottom .marketing-site-footer-bottom-links a {
+  color: #8aa0ae;
 }
 @media screen and (max-width: 63.9375em) {
-  .quote-inline-wrap {
-    width: 100%;
-    float: none;
-    display: block;
+  .marketing-site-footer-bottom .marketing-site-footer-bottom-links {
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media screen and (max-width: 63.9375em) {
+  .marketing-site-footer-bottom {
+    text-align: center;
   }
 }
